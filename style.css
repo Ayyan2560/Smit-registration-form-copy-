@@ -1,145 +1,96 @@
 *{
-    background-color: #fff
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-label{
-    color: #0d6db7
-}
-@font-face {
-    font-family: playfairDisplay;
-    src: url(/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
-}
-h2{
-    font-family: "playfairdisplay";
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 800;
-
-
-
-}
-form{
-    font-style: oblique;
-    font-size: 1.2em;
-    line-height: 3em;
-    text-transform: capitalize;
-    text-decoration: underline;
-    font-weight: 800;
- 
+body{
+    background: #c7e9ff;
+    background: linear-gradient(90deg,rgba(199, 233, 255, 1) 18%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
     
 }
-select
-{width: 38em;
-    height: 4em;
-    text-transform: capitalize;
-    border-style: dashed;
-    border-color: green;
-margin:0.5em;
--webkit-border-radius: 1.2em;
--moz-border-radius: 1.2em;
-border-radius: 1.2em;
-border: 2px dashed #21c712; /* yahan border mota ho gaya */
-  outline: none;
+#container{
+        width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 100, 0, 0.2);
+}
+#child
+{
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+#child img{
+    width: 6em;
+    height: 6em;
+    margin: 0px,0px,10px;
+}
+#child h2,h3{
+    color: rgb(30, 104, 8);
+    text-decoration: underline;}
    
+
+
+    form h2{
+         color: #006400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px dashed #006400;
+
+   padding-bottom: 4px;
+
+    }
+    label{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.2em;
+        text-transform:capitalize ;
+        text-decoration: underline;
+        font-style: normal;
+
+
+
+    }
+    select,input{
+         display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 40em;
+        height:3em;
+      
+        text-transform:capitalize ;
+        text-decoration: underline;
+        font-style: normal;
+        line-height: 2em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-color:#8dc63f ;
+    }
+    ul>li{
+        list-style-type: none ;
+        list-style-position: inside;
+
+    }
+
+select:hover {
+    border: 2px dashed #0d6efd;
 
 }
 select:focus{
-    border-color:#0d6db7 ;
+    border:0.5px solid #0d6efd; ;
     outline: none;
 }
-select:hover{
-        border-color:#0d6db7 ;
-        outline: none;
-
-}
-input[type="text"]{
-    width: 38em;
-    height: 4em;
-    text-transform: capitalize;
-    border-style: dashed;
-    border-color: green;
-margin: 0.2em;
--webkit-border-radius: 1.2em;
--moz-border-radius: 1.2em;
-border-radius: 1.2em;
 
 
-}
-input[type="email"]{
-    width: 38em;
-    height: 4em;
-    text-transform: capitalize;
-    border-style: dashed;
-    border-color: green;
-margin: 0.2em;
--webkit-border-radius: 1.2em;
--moz-border-radius: 1.2em;
-border-radius: 1.2em;
 
-}
-input[
-    type=number
-]{
-    width: 38em;
-    height: 4em;
-    text-transform: capitalize;
-    border-style: dashed;
-    border-color: green;
-margin: 0.2em;
--webkit-border-radius: 1.2em;
--moz-border-radius: 1.2em;
-border-radius: 1.2em;
-
-}
-input[
-    type=tel
-]{
-    width: 38em;
-    height: 4em;
-    text-transform: capitalize;
-    border-style: dashed;
-    border-color: green;
-margin: 0.2em;
--webkit-border-radius: 1.2em;
--moz-border-radius: 1.2em;
-border-radius: 1.2em;
-
-}
-input[
-    type=date
-]
-{
-    width: 38em;
-    height: 4em;
-    text-transform: capitalize;
-    border-style: dashed;
-    border-color: green;
-margin: 0.2em;
--webkit-border-radius: 1.2em;
--moz-border-radius: 1.2em;
-border-radius: 1.2em;
-}
-input
-[type=file]
-    {border: 2px,dashed,#0d6db7;
-
-
-}
-input[
-    type=file
-]:hover{
-    border-color: #0d6db7;
-    outline: none;
-
-}
     
-
-
-
-input:hover{
-     border-color:#0d6db7 ;
-     outline: none;
-}
-input[type="text"]:focus {
-  border-color: #0d6db7;
-  outline: none;
-}

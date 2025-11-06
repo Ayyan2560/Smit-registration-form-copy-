@@ -16,7 +16,7 @@ body{
 }
 #container{
         width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     background: #ffffff;
     padding: 30px 40px;
     border-radius: 10px;
@@ -33,7 +33,7 @@ body{
     height: 6em;
     margin: 0px,0px,10px;
 }
-#child h2,h3{
+#child h2,h3 {
     color: rgb(30, 104, 8);
     text-decoration: underline;}
    
@@ -64,8 +64,8 @@ body{
          display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 40em;
-        height:3em;
+        width: 60em;
+        height:5em;
       
         text-transform:capitalize ;
         text-decoration: underline;
@@ -79,6 +79,10 @@ body{
     ul>li{
         list-style-type: none ;
         list-style-position: inside;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+
 
     }
 
@@ -90,7 +94,56 @@ select:focus{
     border:0.5px solid #0d6efd; ;
     outline: none;
 }
+input[type=text]:hover{
+    border: 2px dashed #0d6efd;
 
+}
+input[type=email]:hover{
+    border: 2px dashed #0d6efd;
 
+}
+input[type=number]:hover{
+    border: 2px dashed #0d6efd;
 
-    
+}
+input[type=tel]:hover{
+    border: 2px dashed #0d6efd;
+
+}
+input[type=date]:hover{
+    border: 2px dashed #0d6efd;
+
+}
+input[type=text]:focus{
+     border:0.5px dashed #0d6efd; ;
+    outline: none;
+}
+input[type=tel]:focus{
+     border:0.5px dashed #0d6efd; ;
+    outline: none;
+}
+input[type=email]:focus{
+     border:0.5px dashed #0d6efd; ;
+    outline: none;
+}
+input[type=date]:focus{
+     border:0.5px dashed #0d6efd; ;
+    outline: none;
+}
+input[type=number]:focus{
+     border:0.5px dashed #0d6efd; ;
+    outline: none;
+}
+
+button{
+    width: 18em;
+    height: 5em;
+    gap: 50px;
+    border: 5px solid #0d6efd
+  
+}
+button:hover{
+    background-color: #8dc63f;
+    color: #c7e9ff;
+}
+ 
